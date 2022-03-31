@@ -1,4 +1,4 @@
-# Flask Boilerplate
+# HR Service
 
 This repository is a boiler template code to create a Flask APP.
 

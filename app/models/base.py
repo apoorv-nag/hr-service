@@ -1,5 +1,6 @@
-from lib.mongo.manager import mongo_manager
+class Base:
 
-
-class Base(mongo_manager):
-    pass
+    instance = None
+    def __init__(self):
+        from app import mongodb
+        self.instance = mongodb
